@@ -15,6 +15,10 @@ namespace Umg.Entidades.Almacen
         public string descripcion { get; set; }
         public bool condicion { get; set; }
 
+        //vinculamos la tabla articulos con categoria  ---> 
+        public ICollection<articulo> articulos { get; set; }
+
 
     }
 }
+

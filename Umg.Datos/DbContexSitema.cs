@@ -18,14 +18,14 @@ namespace Umg.Datos
     public class DbContexSitema : DbContext
     {
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<articulo> Articulo { get; set; }
-        public DbSet<persona> Persona { get; set; }
-        public DbSet<Rol> Rol { get; set; }
-        public DbSet<Usuario> Usuario { get; set; }
-        public DbSet<detalle_ingreso> detalle_ingreso { get; set; }
-        public DbSet<detalle_venta> detalle_venta { get; set; }
-        public DbSet<ingreso> ingreso { get; set; }
-        public DbSet<venta> Venta { get; set; }
+        public DbSet<articulo> Articulos { get; set; }
+        public DbSet<persona> Personas { get; set; }
+        public DbSet<Rol> Rols { get; set; }
+        public DbSet<Usuario> Usuarioss { get; set; }
+        public DbSet<detalle_ingreso> detalle_ingresos { get; set; }
+        public DbSet<detalle_venta> detalle_ventas { get; set; }
+        public DbSet<ingreso> ingresos { get; set; }
+        public DbSet<venta> Ventas { get; set; }
         public DbContexSitema(DbContextOptions<DbContexSitema> options) : base(options)
         {
         }

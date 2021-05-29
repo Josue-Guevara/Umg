@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using Umg.Entidades.Almacen;
 
 namespace Umg.Entidades.Ventas
 {
@@ -40,5 +41,7 @@ namespace Umg.Entidades.Ventas
             {
             }
         }
+        List<venta> ventas { get; set; }
+        List<articulo> Articulos { get; set; }
     }
 }

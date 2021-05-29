@@ -69,5 +69,6 @@ namespace Umg.Entidades.Usuario
             {
             }
         }
+        public List<Rol> Roles { get; set; }
     }
 }

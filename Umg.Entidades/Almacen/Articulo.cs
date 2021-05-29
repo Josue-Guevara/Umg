@@ -25,7 +25,8 @@ namespace Umg.Entidades.Almacen
 
         public int idmarca { get; set; }
 
-        public Ventas.detalle_ingreso detalle_ingreso
+  
+public Ventas.detalle_ingreso detalle_ingreso
         {
             get => default;
             set
@@ -56,5 +57,11 @@ namespace Umg.Entidades.Almacen
             {
             }
         }
+    
+
+
+//realcion con la tabla categorias  -->ojo
+public Categoria categoria { get; set; }
+
     }
 }
