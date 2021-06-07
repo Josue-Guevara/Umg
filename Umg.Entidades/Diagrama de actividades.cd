@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Umg.Entidades.Almacen.articulo" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAEAAAACAAAEAAIAAAACAkAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Almacen\Articulo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="venta3" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Almacen.Categoria" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAACAAAEAAAAEAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Almacen\Categoria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="articulo1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Usuario.persona" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAIICgAAAAAAAAAAIAAAAAAAAEAQIGAgI=</HashCode>
+      <FileName>Usuarios\Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Usuario.Rol" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAABAAIICgAFgAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Usuarios\Rol.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categoria3" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Usuario.Usuario" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAEAAEIACgAAAAQAAA8gEAAgAAAAAAAQAEAAI=</HashCode>
+      <FileName>Usuarios\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rol4" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.detalle_ingreso" Collapsed="true">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEEAAAgAAAAAAAAAIDAAAAAACAAAAQAAEEAAAAAAAA=</HashCode>
+      <FileName>Ventas\detalle_ingreso.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="persona3" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.detalle_venta" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAEAAAAIBAAAAAAAAAEAAAAAQACAgAAAAAAEA=</HashCode>
+      <FileName>Ventas\detalle_venta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ingreso3" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.venta" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAgAAAAAAAAAAAAKABAICCAAQABAAAGAAAAgAAAA=</HashCode>
+      <FileName>Ventas\venta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="detalle_venta5" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.ingreso" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAEAAAAAABQAAAQAAAAAgAAAAAQIAAAAQAAAA=</HashCode>
+      <FileName>Ventas\ingreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

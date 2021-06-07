@@ -64,5 +64,37 @@ namespace Umg.Entidades.Usuario
             {
             }
         }
+
+        public Usuario Usuario
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Usuario Usuario1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Usuario Usuario2
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Rol Rol
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

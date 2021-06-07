@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="una puede tener varios ususarios">
+    <Position X="9.505" Y="1.299" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="en cada ingreso pueden entrar diferentes categorias">
+    <Position X="6.068" Y="7.794" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="una persona puede tener varios roles">
+    <Position X="10.282" Y="3.596" Height="0.576" Width="1.082" />
+  </Comment>
+  <Comment CommentText="los articulos pueden tener varios detalle:ingreso">
+    <Position X="2.44" Y="3.295" Height="0.782" Width="1.288" />
+  </Comment>
+  <Class Name="Umg.Entidades.Almacen.articulo">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAEAAAACAAAEAAIAAAACAkAABAAIAAAAwAAAA=</HashCode>
+      <FileName>Almacen\Articulo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="detalle_venta1" />
+      <Property Name="detalle_ingreso1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Almacen.Categoria">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAACAAAEAAAAEAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Almacen\Categoria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="articulo2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Usuario.persona">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAIICgAAAAAAAAAAIAAgAAABAEAQIGAgI=</HashCode>
+      <FileName>Usuarios\Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario2" />
+      <Property Name="Rol" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Usuario.Rol">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAABAAIICgAFgAAAAAAAAAAAAAAAAEAAAAAgA=</HashCode>
+      <FileName>Usuarios\Rol.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Usuario.Usuario">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAEAAEIICgAAAAQAAA8gEAAgAAAAAAAQAEAAI=</HashCode>
+      <FileName>Usuarios\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ingreso" />
+      <Property Name="venta1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.detalle_ingreso">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEEAAAgAAAAAAAAAIDAAAAAACAAAAQAAEEAAAgBAAA=</HashCode>
+      <FileName>Ventas\detalle_ingreso.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="articulo" />
+      <Property Name="detalle_venta1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.detalle_venta">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAEAAAAIBAAAAAAAAAEAAAAAQACAgAAAAAAEA=</HashCode>
+      <FileName>Ventas\detalle_venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.ingreso">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAEAAAAAAhQAAAQAAAAAgAAAQAQIAAAAQAAAA=</HashCode>
+      <FileName>Ventas\ingreso.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="persona" />
+      <Property Name="venta1" />
+      <Property Name="Categoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Umg.Entidades.Ventas.venta">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAgAAAAAAAAAAAAKABAICCAAQABABAGAAAAgAAAA=</HashCode>
+      <FileName>Ventas\venta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="detalle_venta6" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

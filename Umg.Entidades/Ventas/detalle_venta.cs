@@ -43,5 +43,21 @@ namespace Umg.Entidades.Ventas
         }
         List<venta> ventas { get; set; }
         List<articulo> Articulos { get; set; }
+
+        public ingreso ingreso2
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public ingreso ingreso3
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

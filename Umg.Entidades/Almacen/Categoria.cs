@@ -18,7 +18,29 @@ namespace Umg.Entidades.Almacen
         //vinculamos la tabla articulos con categoria  ---> 
         public ICollection<articulo> articulos { get; set; }
 
+        public articulo articulo
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
+        public articulo articulo1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public articulo articulo2
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }
 

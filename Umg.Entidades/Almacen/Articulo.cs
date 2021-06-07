@@ -63,5 +63,36 @@ public Ventas.detalle_ingreso detalle_ingreso
 //realcion con la tabla categorias  -->ojo
 public Categoria categoria { get; set; }
 
+        public Ventas.venta venta2
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Ventas.venta venta3
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Ventas.detalle_venta detalle_venta1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Ventas.detalle_ingreso detalle_ingreso1
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

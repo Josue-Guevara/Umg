@@ -47,5 +47,29 @@ namespace Umg.Entidades.Usuario
             {
             }
         }
+
+        public Almacen.Categoria Categoria2
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Almacen.Categoria Categoria3
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Usuario Usuario
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

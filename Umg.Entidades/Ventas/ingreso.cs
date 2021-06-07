@@ -38,5 +38,37 @@ namespace Umg.Entidades.Ventas
             {
             }
         }
+
+        public detalle_ingreso detalle_ingreso1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Usuario.persona persona
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public venta venta1
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Almacen.Categoria Categoria
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }
